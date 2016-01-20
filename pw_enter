@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char c;
+int i;
+float j;
+printf("Enter a Character=");
+c=getchar();
+if(c==10)
+{
+    printf("U Have Pressed Enter");
+}
+else
+    printf("\n U Have pressed %c",c);
+getch();
+}
